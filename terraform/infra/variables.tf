@@ -34,6 +34,12 @@ variable "gcs_bucket_name" {
   default     = "gdelt_raw_data_bucket"
 }
 
+variable "gcs_spark_bucket_name" {
+  description = "My Storage Bucket Name"
+  #Update the below to a unique bucket name
+  default     = "gdelt_spark_data_bucket"
+}
+
 variable "gcs_storage_class" {
   description = "Bucket Storage Class"
   default     = "STANDARD"
